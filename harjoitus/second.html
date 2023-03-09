@@ -8,24 +8,42 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <a href="styles.html">ks toinen laulu</a>
-    <h1>Jos täytätte mun lasini niin tahdon kertoa</h1>
+    
+   <div id="header">
+        <h1>Rosvo-Roope</h1>
+   </div> 
 
-    <p>
-        Surullisen tarinan joll' ei oo vertoa<br>
-        Se on laulu merirosvosta Roope nimeltään<br>
-        Mi sydämiä särki missä joutui kiertämään
-    </p>
+   <div id="nav">
+    <ul>
+        <li><a href="index.html">Puosuvaari</a></li>
+        <li><a href="second.html">Rosvo-Roope</a></li>
+        <li><a href="third.html">Hurjat merirosvot</a> </li>
+    </ul>
+    </div>
+
+    <div id="section">
+        <h2>Jos täytätte mun lasini niin tahdon kertoa</h2>
+
+        <p>
+            Surullisen tarinan joll' ei oo vertoa<br>
+            Se on laulu merirosvosta Roope nimeltään<br>
+            Mi sydämiä särki missä joutui kiertämään
+        </p>
+    </div>
 
     <img src="images/merirosvo.gif" alt="merirosvo" style="width:167px;height:200px">
 
-    <figure>
+    <figure id="laiva">
         <img src="images/merirosvolaiva.png" alt="Merirosvolaiva" style="width:208px;height:180px">
         <figcaption>Roopen laiva</figcaption>
     </figure>
 
-    <label for="surmattu">Vihollisia surmattu:</label>
-    <progress id="surmattu" value="3" max="8"> 3/8 </progress>
+    <div id="progress">
+        <label for="surmattu">Vihollisia surmattu:</label>
+        <progress id="surmattu" value="3" max="8"> 3/8 </progress>
+    </div>
+
+    <footer>Semmoinen oli <i>Rosvo-Roope</i>.</footer>
     
 </body>
 </html>
